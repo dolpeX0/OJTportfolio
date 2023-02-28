@@ -1,10 +1,19 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    margin: 0;
-}
-
+    color: #333;
+    background-color: #fff;
+  }
+  
 /* Header */
 header {
     display: flex;
@@ -31,62 +40,84 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-
-/* Style the main content */
-main {
+  
+  /* Main styles */
+  main {
     max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-/* Style the section headings */
-section h2 {
-    color: #333;
+    margin: 2rem auto;
+    padding: 0 2rem;
+  }
+  
+  section {
+    margin-bottom: 4rem;
+  }
+  
+  h2 {
     font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-/* Style the project list */
-section ul {
+    margin-bottom: 2rem;
+  }
+  
+  p {
+    margin-bottom: 2rem;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+  }
+  
+  .gallery img {
+    max-width: 100%;
+  }
+  
+  ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-section ul li {
-    border: 1px solid #ccc;
+  }
+  
+  li {
+    margin-bottom: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
     margin-bottom: 1rem;
-    padding: 1rem;
-}
-
-section ul li h3 {
-    margin-top: 0;
-}
-
-/* Style the contact form */
-section form label {
-    display: block;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1rem;
+  }
+  
+  label {
+    font-size: 1.2rem;
     font-weight: bold;
-    margin-bottom: 0.5rem;
-}
-
-section form input, section form textarea {
-    display: block;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
     padding: 0.5rem;
-    width: 100%;
-}
-
-section form button {
-    background-color: #333;
-    border: none;
+    border: 1px solid #333;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  button[type="submit"] {
+    background-color: #000;
     color: #fff;
-    cursor: pointer;
     padding: 0.5rem 1rem;
-    margin-top: 1rem;
-}
-
-section form button:hover {
-    background-color: #555;
-}
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
