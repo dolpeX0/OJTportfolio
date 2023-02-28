@@ -5,44 +5,30 @@ body {
     margin: 0;
 }
 
-/* Style the header */
+/* Header */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #222;
     color: #fff;
-    padding: 10px;
+    padding: 20px;
 }
 
-/* Center the title and navigation menu in the header */
-header h1, header nav {
-    display: inline-block;
-    vertical-align: middle;
+nav ul {
+    display: flex;
 }
 
-/* Style the navigation menu */
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: right;
+nav li {
+    margin-left: 20px;
 }
 
-header nav ul li {
-    display: inline-block;
-    
-}
-
-header nav ul li a {
+nav a {
     color: #fff;
-    display: block;
-    padding: 0.5rem 1rem;
     text-decoration: none;
 }
 
-header nav ul li a:hover {
-    background-color: #555;
+nav a:hover {
     text-decoration: underline;
 }
 
