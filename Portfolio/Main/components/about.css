@@ -8,8 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
-    background-color: #f8f8f8;
-    background-color: black;
+    background-image: url(assetsC/2109.webp);
 }
 /* Center content vertically and horizontally */
 .container {

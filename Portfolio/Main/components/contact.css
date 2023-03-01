@@ -8,8 +8,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
-  background-color: #f8f8f8;
-  background-color: black;
+  background-color: #efefef;
 }
 /* Center content vertically and horizontally */
 .container {
@@ -25,7 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #222;
+    background-color: #171717;
     background-image: url("assetsC/1st\ BG.jpg");
     color: #fff;
     padding: 20px;
@@ -54,7 +53,9 @@ nav a:hover {
     background-color: #cecece;
     padding: 10px;
   }
-  
+ #contactinfo h2{
+    text-align: center;
+ }
   .contact-info {
     display: flex;
     justify-content: center;
@@ -84,6 +85,7 @@ nav a:hover {
     background-color: #efefef;
     padding: 0px 0;
     text-align: center;
+    margin-bottom: 50px;
   }
   #contactme h2 {
     margin-bottom: 30px;
@@ -109,20 +111,23 @@ nav a:hover {
   }
   
   textarea {
-    height: 150px;
+    height: 100px;
   }
   
   button[type="submit"] {
-    padding: 10px 20px;
+    padding: 0.5rem 1rem;
     background-color: #222;
     color: #fff;
     border: none;
     border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
   }
   
   button[type="submit"]:hover {
-    background-color: #444;
+    background-color: #fff;
+    color: #000;
   }
   
