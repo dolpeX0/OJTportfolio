@@ -6,12 +6,13 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.5;
-  background-image: url("assets/2nd\ BG.jpg");
-	background-size: cover;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f8f8f8;
+    background-image: url("assets/2nd\ BG.jpg");
+	  background-size: cover;
+    color: #fff;
 }
-/* Center content vertically and horizontally */
 .container {
   display: flex;
   flex-direction: column;
@@ -26,6 +27,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #222;
+    background-image: url("assets/1st\ BG.jpg");
     color: #fff;
     padding: 20px;
 }

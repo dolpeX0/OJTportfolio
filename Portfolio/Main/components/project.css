@@ -8,8 +8,8 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
-  background-image: url("assets/2nd\ BG.jpg");
-	background-size: cover;
+  background-color: #f8f8f8;
+  background-color: black;
 }
 /* Center content vertically and horizontally */
 .container {
@@ -26,6 +26,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #222;
+    background-image: url("assetsC/1st\ BG.jpg");
     color: #fff;
     padding: 20px;
 }
@@ -54,7 +55,7 @@ nav a:hover {
     justify-content: space-between;
   }
   
-  .project {
+  .project-slide {
     width: 30%;
     margin-bottom: 40px;
     padding: 20px;
@@ -62,24 +63,24 @@ nav a:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  .project h3 {
+  .project-slide h3 {
     margin-top: 0;
     font-size: 24px;
   }
   
-  .project img {
+  .project-slide img {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
   }
   
-  .project p {
+  .project-slide p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
   }
   
-  .project a {
+  .project-slide a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #333;
@@ -89,7 +90,7 @@ nav a:hover {
     transition: background-color 0.2s ease-in-out;
   }
   
-  .project a:hover {
+  .project-slide a:hover {
     background-color: #444;
   }
   
