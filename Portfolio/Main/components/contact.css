@@ -51,8 +51,8 @@ nav a:hover {
 
 /*my contact  info*/
 #contactinfo {
-    background-color: #f9f9f9;
-    padding: 50px;
+    background-color: #cecece;
+    padding: 10px;
   }
   
   .contact-info {
@@ -71,7 +71,7 @@ nav a:hover {
   
   .contact-item i {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   
   .contact-item p {
@@ -81,7 +81,7 @@ nav a:hover {
 
 /*contact me*/
 #contactme {
-    background-color: #f5f5f5;
+    background-color: #efefef;
     padding: 0px 0;
     text-align: center;
   }
