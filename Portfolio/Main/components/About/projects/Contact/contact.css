@@ -6,9 +6,18 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
-    background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-image: url("assets/2nd\ BG.jpg");
+	background-size: cover;
+}
+/* Center content vertically and horizontally */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 /* Header */
