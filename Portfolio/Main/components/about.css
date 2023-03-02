@@ -154,3 +154,23 @@ main {
     color: #020202;
 
 }
+.IG-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    float: left;
+    margin-left: -120px;
+    
+}
+.IG-icon ion-icon {
+    font-size: 50px;
+    color: #ffb917d5;
+    margin-right: 10px;
+    transition: color 0.5s;
+    text-decoration: none;
+}
+.IG-icon ion-icon:hover {
+    color: #fbff00;
+
+}
