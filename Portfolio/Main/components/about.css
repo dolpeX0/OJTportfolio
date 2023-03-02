@@ -109,9 +109,23 @@ main {
     margin-right: 10px;
     transition: color 0.5s;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
+@keyframes FB-icon {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 .FB-icon ion-icon:hover {
     color: #1500ff;
+    animation: pulse 1s infinite;
+    transform: scale(1.2);
 
 }
 .YT-icon {
@@ -129,9 +143,23 @@ main {
     margin-right: 10px;
     transition: color 0.5s;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
+@keyframes YT-icon {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 .YT-icon ion-icon:hover {
     color: #ff0000;
+    animation: pulse 1s infinite;
+    transform: scale(1.2);
 
 }
 .DC-icon {
@@ -149,9 +177,23 @@ main {
     margin-right: 10px;
     transition: color 0.5s;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
+@keyframes Dc-icon {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 .DC-icon ion-icon:hover {
     color: #020202;
+    animation: pulse 1s infinite;
+    transform: scale(1.2);
 
 }
 .IG-icon {
@@ -161,16 +203,27 @@ main {
     margin-top: 180px;
     float: left;
     margin-left: -120px;
-    
 }
 .IG-icon ion-icon {
     font-size: 50px;
     color: #ffb917d5;
     margin-right: 10px;
     transition: color 0.5s;
-    text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
+@keyframes IG-icon {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 .IG-icon ion-icon:hover {
     color: #fbff00;
-
+    animation: pulse 1s infinite;
+    transform: scale(1.2);
 }
