@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
@@ -18,7 +17,6 @@ body {
     align-items: center;
     height: 100vh;
 }
-
 /* Header */
 header {
     display: flex;
@@ -29,24 +27,19 @@ header {
     color: #fff;
     padding: 20px;
 }
-
 nav ul {
     display: flex;
 }
-
 nav li {
     margin-left: 20px;
 }
-
 nav a {
     color: #fff;
     text-decoration: none;
 }
-
 nav a:hover {
     text-decoration: underline;
 }
-
 /* Main */
 main {
     max-width: 800px;
@@ -55,28 +48,46 @@ main {
     background-color: #fff;
     box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
-
-section {
+#myinfo {
     margin-bottom: 40px;
-}
-
-section h2 {
+ }
+ #myinfo h2 {
     margin-bottom: 20px;
     font-size: 28px;
     color: #222;
-}
-
-section p {
+    text-align: center;
+    margin-right: 130px;
+ }
+ .myinfo-item p {
     font-size: 18px;
     color: #666;
-}
-
-section img {
+ }
+ .myinfo-item img {
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
-    margin-right: 20px;
     float: left;
     box-shadow: 0 3px 6px rgba(0,0,0,0);
-}
+    margin-right: 20px;
+    margin-top: -60px;
+ }
+#myskills {
+    margin: 0;
+ }
+ #myskills h2{
+    text-align: center;
+    margin-right: 395px;
+ }
+ .myskills-item ul{
+    margin-left: 230px;
+ }
+#myexp {
+    margin: 0;
+ }
+ #myexp h2 {
+    margin: 0;
+ }
+ .myexp-item ul {
+    text-align: center;    
+ }
